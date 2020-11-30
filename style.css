@@ -1,0 +1,36 @@
+.cabecario {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    display: block;
+    text-align: initial;
+    font-size: 1.5vw;
+}
+
+.cabecario ul {
+    position: fixed;
+    display: inline-block;
+    background-color:rgb(109, 0, 0);
+    color: black;
+    width: 100vw;
+}
+
+.cabecario li {
+    float: right;
+    margin: 16px;
+    text-decoration: none;
+}
+
+#inicio {
+    margin-top: 4%;
+    max-width: 100%;
+    height: auto;
+}
+
+.c1, .c2, .c3, .c4 {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.c1:hover,.c2:hover,.c3:hover,.c4:hover {
+    color: rgb(0, 179, 0);
+}
