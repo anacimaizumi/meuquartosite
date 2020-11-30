@@ -1,3 +1,8 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
 .cabecario {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -20,7 +25,7 @@
     text-decoration: none;
 }
 
-#inicio {
+#fotocabecario {
     margin-top: 4%;
     max-width: 100%;
     height: auto;
@@ -33,4 +38,35 @@
 
 .c1:hover,.c2:hover,.c3:hover,.c4:hover {
     color: rgb(0, 179, 0);
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.coluna5 {
+    float: left;
+    width: 41.666%;
+    background-color: rgb(205, 221, 114);
+    height: auto;
+}
+
+.coluna5 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.coluna7 {
+    float: left;
+    width: 58.333%;
+    background-color: rgb(253, 247, 153);
+    height: auto;
+}
+
+.coluna12 {
+    float: left;
+    width: 100%;
+    background-color: rgb(212, 114, 221);
+    height: auto;
 }
