@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    font-size: 16px;
 }
 
 .cabecario {
@@ -36,37 +37,58 @@ body {
     text-decoration: none;
 }
 
+.c4 {
+    margin-right: 30px;
+}
+
 .c1:hover,.c2:hover,.c3:hover,.c4:hover {
     color: rgb(0, 179, 0);
 }
 
 p {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    margin-right: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 1.5;
 }
 
 .coluna5 {
     float: left;
     width: 41.666%;
-    background-color: rgb(205, 221, 114);
-    height: auto;
+    height: 400px;
 }
 
 .coluna5 img {
     max-width: 100%;
+    width: 50%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .coluna7 {
     float: left;
     width: 58.333%;
-    background-color: rgb(253, 247, 153);
-    height: auto;
+    height: 400px;
 }
 
 .coluna12 {
     float: left;
     width: 100%;
-    background-color: rgb(212, 114, 221);
     height: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(109, 0, 0);;
+    text-align: center;
+    font-size: 3em;
 }
