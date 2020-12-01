@@ -55,6 +55,18 @@ p {
     line-height: 1.5;
 }
 
+.coluna4 {
+    float: left;
+    width: 33.333%;
+    background-color:rgb(114, 221, 137);
+    height: auto;
+}
+
+.coluna4 img {
+    width: 100%;
+    height: auto;
+}
+
 .coluna5 {
     float: left;
     width: 41.666%;
@@ -86,11 +98,43 @@ p {
     padding-top: 15px;
 }
 
+.coluna12 p {
+    text-align: center;
+    line-height: 1;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    border-bottom: solid rgb(109, 0, 0) 1px;
+  }
+
 h1 {
     font-family: 'Permanent Marker', cursive;
     color: rgb(109, 0, 0);;
     text-align: center;
     font-size: 3em;
+}
+
+a.button1:visited, a.button2:visited {
+    color: whitesmoke;
+}
+
+a.button1:link, a.button2:link {
+    background-color: rgb(109, 0, 0);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px;
+    border-radius: 4px;
+    color: whitesmoke;
+}
+
+a.button1:hover, a.button2:hover {
+    color: rgb(0, 179, 0);
 }
 
 .snowflake {
