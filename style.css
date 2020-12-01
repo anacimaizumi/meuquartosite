@@ -4,6 +4,11 @@ body {
     font-size: 16px;
 }
 
+a {
+    text-decoration: none;
+    color: whitesmoke
+}
+
 .cabecario {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -28,7 +33,7 @@ body {
 
 #fotocabecario {
     margin-top: 4%;
-    max-width: 100%;
+    max-width: 100vw;
     height: auto;
 }
 
@@ -55,6 +60,20 @@ p {
     line-height: 1.5;
 }
 
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(109, 0, 0);;
+    text-align: center;
+    font-size: 3em;
+}
+
+.coluna2 {
+    float: left;
+    width: 16.666%;
+    background-color: rgb(169, 114, 221);
+    height: auto;
+}
+
 .coluna4 {
     float: left;
     width: 33.333%;
@@ -70,7 +89,7 @@ p {
 .coluna5 {
     float: left;
     width: 41.666%;
-    height: 400px;
+    height: auto;
 }
 
 .coluna5 img {
@@ -87,15 +106,22 @@ p {
 .coluna7 {
     float: left;
     width: 58.333%;
-    height: 400px;
+    height: 340px;
+}
+
+.coluna10 {
+    float: left;
+    width: 83.333%;
+    background-color: rgb(209, 162, 252);
+    height: auto;
 }
 
 .coluna12 {
     float: left;
     width: 100%;
     height: auto;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .coluna12 p {
@@ -103,20 +129,53 @@ p {
     line-height: 1;
 }
 
+.rodape {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 9px;
+    letter-spacing: .1em;
+}
+
+.icone {
+    margin: 5px;
+    color:whitesmoke;
+    text-align: center;
+}
+
+.icone:hover {
+    color: rgb(0, 179, 0);
+}
+
+
+.footer {
+    display: block;
+    text-align: initial;
+    font-size: 1.5vw;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.footer ul {
+    background-color:rgb(109, 0, 0);
+    width: 100vw;
+}
+
+.footer li {
+    display: inline-block;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: whitesmoke;
+}
+
 .center {
     display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
-    border-bottom: solid rgb(109, 0, 0) 1px;
   }
-
-h1 {
-    font-family: 'Permanent Marker', cursive;
-    color: rgb(109, 0, 0);;
-    text-align: center;
-    font-size: 3em;
-}
 
 a.button1:visited, a.button2:visited {
     color: whitesmoke;
