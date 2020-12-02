@@ -215,5 +215,43 @@ a.button1:hover, a.button2:hover {
   }
   .demo a{
     font-family: 'Raleway', sans-serif;
-  color: #000;		
+    color: #000;		
   }
+
+  /* parte complementar fotos.html */
+
+.coluna3 {
+    float: left;
+    width: 25%;
+    height: auto;
+}
+
+.coluna3 img {
+    width: 100%;
+    height: auto;
+}
+
+.coluna3 h1{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    clear: both;
+    display: block;
+    height: 0;
+}
+
+.fotosmorada {
+    padding-top: 10vh;
+}
+
+.footerfoto {
+    padding-top: 0px;
+}
+
+.coluna9 p {
+    margin-top: 0px;
+}
