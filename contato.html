@@ -1,0 +1,95 @@
+<html>
+<head>
+    <title>ONDE MORO | PAPAI NOEL</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,200;0,400;0,700;0,900;1,200;1,400;1,700;1,900&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8698c2d89.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="cabecario">
+        <ul>
+            <li>
+                <a class=c4 href="#midia"> mídia</a> 
+            </li>
+            <li>
+                <a class=c3 href="contato.html"> mande uma cartinha</a>
+            </li>
+            <li>
+                <a class=c2 href="fotos.html"> onde moro</a>
+            </li>
+            <li>
+                <a class=c1 href="home.html"> o papai noel</a>
+            </li>
+        </ul>
+    </header>
+    <div class="coluna12 contato clearfix">
+        <h1>escreva pro papai noel</h1>
+        <p>É só preencher o formulário abaixo e escrever seus desejos, comentários ou pedidos</p>
+    </div>
+    <div>
+        <div class="coluna3">
+            <h2>olar</h2>
+        </div>
+        <form action="https://formspree.io/f/xknpveor" method="POST">   
+            <div class="coluna6 clearfix">
+                    <label for="nome"> nome </label>
+                    <input type="text" placeholder="seu nome" name="nome" required>
+
+                    <label for="email"> e-mail </label>
+                    <input type="text" placeholder="seu e-mail" name="email" required>
+
+                    <label for="assunto"> assunto </label>
+                    <input type="text" placeholder="seu título" name="assunto" required>
+
+                    <label for="mensagem"> mensagem </label>
+                    <input type="text" placeholder="sua mensagem" name="mensagem" required>
+
+                    <p>podemos divulgar a sua cartinha?</p>
+                    <input type="radio" checked="checked" name="radio">
+                    <label class="simnao" for="radio">sim</label>
+                    <input type="radio" name="radio">
+                    <label class="simnao" for="radio">não</label>
+                    <div>
+                        <h2>oi</h2>
+                        <input name="termos" type="checkbox" value="apertar" required>
+                        <label for="termos">eu li e aceito todos os termos e condições</label>
+                    </div>
+                    <button type="submit" class="btn">enviar</button>
+            </div>
+        </form>
+        <div class="coluna3">
+                <h2>olar</h2>
+        </div>
+    </div>
+    <footer class="coluna12 footer footerfoto" id="midia">
+            <div>    
+                <ul>
+                    <li>
+                        <a class="fab fa-spotify icone" href="https://www.google.com.br" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a class="fab fa-instagram icone" href="https://www.google.com.br" target="_blank"></a>
+                    </li>
+                    <li>
+                        <a class="fab fa-bandcamp icone" href="https://www.google.com.br" target="_blank"></a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul class="rodape">
+                    <li>
+                        <a href="#papainoel"> o papai noel | </a>
+                    </li>
+                    <li>
+                        <a href="fotos.html"> onde moro | </a>
+                    </li>
+                    <li>
+                        <a href="contato.html"> mande uma cartinha</a>
+                    </li>
+                </ul>
+            </div>
+    </footer>
+</body>
+</html>

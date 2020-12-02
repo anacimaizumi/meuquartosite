@@ -218,7 +218,7 @@ a.button1:hover, a.button2:hover {
     color: #000;		
   }
 
-  /* parte complementar fotos.html */
+/* parte complementar fotos.html */
 
 .coluna3 {
     float: left;
@@ -231,7 +231,7 @@ a.button1:hover, a.button2:hover {
     height: auto;
 }
 
-.coluna3 h1{
+.coluna3 h1, .contato h1{
     padding-top: 60px;
     padding-bottom: 20px;
 }
@@ -255,3 +255,62 @@ a.button1:hover, a.button2:hover {
 .coluna9 p {
     margin-top: 0px;
 }
+
+/* parte complementar contato.html */
+
+.contato p {
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.coluna6 {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+.coluna6 p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.simnao {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  h2 {
+      color: white;
+  }
