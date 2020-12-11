@@ -23,6 +23,7 @@ a {
     background-color:rgb(109, 0, 0);
     color: black;
     width: 100vw;
+    z-index: 9999;
 }
 
 .cabecario li {
@@ -48,6 +49,8 @@ a {
 
 .c1:hover,.c2:hover,.c3:hover,.c4:hover {
     color: rgb(0, 179, 0);
+    border-bottom: #a80505cc solid 4px;
+    transition: .1s ease-in-out;
 }
 
 p {
@@ -62,7 +65,7 @@ p {
 
 h1 {
     font-family: 'Permanent Marker', cursive;
-    color: rgb(109, 0, 0);;
+    color: rgb(109, 0, 0);
     text-align: center;
     font-size: 3em;
 }
@@ -77,8 +80,16 @@ h1 {
 .coluna4 {
     float: left;
     width: 33.333%;
-    background-color:rgb(114, 221, 137);
+    background-color: rgb(109, 0, 0);
     height: auto;
+
+}
+
+.animacao:hover {
+    background: #000;
+    opacity: 0;
+    -webkit-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
 }
 
 .coluna4 img {
