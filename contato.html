@@ -1,11 +1,12 @@
 <html>
 <head>
-    <title>ONDE MORO | PAPAI NOEL</title>
+    <title> MANDE SUA CARTA | PAPAI NOEL</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,200;0,400;0,700;0,900;1,200;1,400;1,700;1,900&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c8698c2d89.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <header class="cabecario">
@@ -25,7 +26,7 @@
         </ul>
     </header>
     <div class="coluna12 contato clearfix">
-        <h1>escreva pro papai noel</h1>
+        <h1 class="animate__animated animate__flipInX">escreva pro papai noel</h1>
         <p>É só preencher o formulário abaixo e escrever seus desejos, comentários ou pedidos</p>
     </div>
     <div>
@@ -44,7 +45,7 @@
                     <input type="text" placeholder="seu título" name="assunto" required>
 
                     <label for="mensagem"> mensagem </label>
-                    <input type="text" placeholder="sua mensagem" name="mensagem" required>
+                    <textarea id="mensagem" type="text" placeholder="sua mensagem" name="mensagem" required></textarea>
 
                     <p>podemos divulgar a sua cartinha?</p>
                     <input type="radio" checked="checked" name="radio">
