@@ -82,14 +82,11 @@ h1 {
     width: 33.333%;
     background-color: rgb(109, 0, 0);
     height: auto;
-
+    z-index: -2;
 }
 
-.animacao:hover {
-    background: #000;
-    opacity: 0;
-    -webkit-transition: opacity .3s ease-in-out;
-    transition: opacity .3s ease-in-out;
+.coluna4 h3 {
+    color: white;
 }
 
 .coluna4 img {
@@ -267,6 +264,20 @@ a.button1:hover, a.button2:hover {
     margin-top: 0px;
 }
 
+/* animação texto em cima da imagem */
+
+.textoimg { 
+   position: relative;
+}
+
+h3 { 
+   position: absolute; 
+   top: 10px; 
+   left: 10; 
+   width: 100%;
+   z-index: -1;
+}
+
 /* parte complementar contato.html */
 
 .contato p {
@@ -421,3 +432,10 @@ textarea:focus {
     -webkit-animation-name: flipInX;
     animation-name: flipInX;
   }
+
+.animacao:hover {
+    background: #000;
+    opacity: 0;
+    -webkit-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+}
