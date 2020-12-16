@@ -14,7 +14,7 @@ a {
     font-weight: 700;
     display: block;
     text-align: initial;
-    font-size: 1.5vw;
+    font-size: 16px;
 }
 
 .cabecario ul {
@@ -44,7 +44,7 @@ a {
 }
 
 .c4 {
-    margin-right: 30px;
+    margin-right: 16px;
 }
 
 .c1:hover,.c2:hover,.c3:hover,.c4:hover {
@@ -56,7 +56,7 @@ a {
 p {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 1em;
+    font-size: 1.4vw;
     margin-right: 100px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -67,8 +67,7 @@ h1 {
     font-family: 'Permanent Marker', cursive;
     color: rgb(109, 0, 0);
     text-align: center;
-    font-size: 3em;
-    padding-top: 70px;
+    font-size: 4.5vw;
 }
 
 .coluna2 {
@@ -115,7 +114,7 @@ h1 {
 .coluna7 {
     float: left;
     width: 58.333%;
-    height: 340px;
+    height: auto;
 }
 
 .coluna10 {
@@ -445,3 +444,4 @@ textarea:focus {
     -webkit-transition: opacity .3s ease-in-out;
     transition: opacity .3s ease-in-out;
 }
+
