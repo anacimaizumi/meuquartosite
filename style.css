@@ -3,12 +3,13 @@ body {
     font-weight: 700;
     font-size: 16px;
 }
-
+                
 a {
     text-decoration: none;
     color: whitesmoke
 }
 
+@media only screen and (min-width: 601px) {
 .cabecario {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -23,7 +24,6 @@ a {
     background-color:rgb(109, 0, 0);
     color: black;
     width: 100vw;
-    z-index: 9999;
 }
 
 .cabecario li {
@@ -43,14 +43,12 @@ a {
     text-decoration: none;
 }
 
-.c4 {
-    margin-right: 16px;
-}
-
 .c1:hover,.c2:hover,.c3:hover,.c4:hover {
     color: rgb(0, 179, 0);
     border-bottom: #a80505cc solid 4px;
     transition: .1s ease-in-out;
+}
+
 }
 
 p {
@@ -438,10 +436,17 @@ textarea:focus {
     transition: opacity .3s ease-in-out;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .coluna5, .coluna7, .coluna12  {
         width: 100%;
         background-color: white;
+        height: auto;
+    }
+
+    .button2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: auto;
     }
 
@@ -465,8 +470,43 @@ textarea:focus {
         font-family: 'Poppins', sans-serif;
         font-weight: 700;
         display: block;
-        text-align: initial;
+        /*text-align: initial;*/
         font-size: 12px;
     }
+    .cabecario ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: brown;
+        left: 0;
+        text-align: center;
+    }
+    
+    .cabecario li {
+        text-decoration: none;
+    }
 
+    .checkbtn {
+        display: block;
+    }
+
+}
+
+/*hamburguer*/
+.checkbtn {
+    font-size: 20px;
+    color: white;
+    float: right;
+    line-height: 70px;
+    margin-right: 16px;
+    cursor: pointer;
+    display: none;
+}
+
+.checkbtn:hover {
+    color: #4CAF50;
+}
+
+#check {
+    display: none;
 }
